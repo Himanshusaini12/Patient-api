@@ -5,7 +5,23 @@ const patientSchema =new mongoose.Schema({
   name: {
     type: String
    
-  }
+  },
+
+  
+contactDetails :{
+  type: Number
+
+},
+
+
+address:{
+  type: String
+},
+pincode:{
+  type: Number
+
+}
+
   })
   
   
