@@ -1,6 +1,5 @@
 const express=require('express');
 const Patient = require('./../modals/patientModel');
-const Patient = require("./../modals/patientModel");
 
 exports.getAllPatient = async(req, res) => {
   
